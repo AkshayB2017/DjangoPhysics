@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'calculate.apps.CalculateConfig',
+    'motion.apps.MotionConfig'
 ]
 
 MIDDLEWARE = [
@@ -79,6 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+   
 }
 
 

@@ -1,0 +1,22 @@
+<form method=post action="">{% csrf_token %}
+    <table>
+      {% for field in form %}
+        <tr>
+        <td>{{ field.name }}</td>
+        <td>{{ field }}</td>
+        <td>{{ field.label }}</td>
+        <td>{{ field.errors }}</td>
+        <td></td>
+        </tr>
+      {% endfor %}
+    </table>
+    <p><input type=submit value=Compute></form></p>
+    <h1>Hello there</h1>
+    <p>Test</p>
+    <p>
+    {% if result != None %}
+    
+
+	{{ result }}
+    {% endif %}
+    </p>

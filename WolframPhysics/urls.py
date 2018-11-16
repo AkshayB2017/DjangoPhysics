@@ -19,4 +19,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('calculate/', include('calculate.urls')),
+    path('motion/',include('motion.urls')),
 ]
