@@ -1,4 +1,3 @@
-<p>Hi!</p>
 <form method=post action="">{% csrf_token %}
     <table>
       {% for field in form %}
@@ -16,6 +15,7 @@
     <p>
     {% if result != None %}
     {% load static %}
-    <p>v={{ result }}</p>
+    {{ result }}
     {% endif %}
     </p>
+    

@@ -1,3 +1,4 @@
+<p>Hi</p>
 <form method=post action="">{% csrf_token %}
     <table>
       {% for field in form %}
@@ -10,6 +11,7 @@
         </tr>
       {% endfor %}
     </table>
+    <p>Hello</p>
     <p><input type=submit value=Compute></form></p>
     <h1>Hello there</h1>
     <p>Test</p>
@@ -17,6 +19,6 @@
     {% if result != None %}
     
 
-	{{ result }}
+   	{{ result }}
     {% endif %}
     </p>

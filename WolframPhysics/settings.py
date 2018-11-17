@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'calculate.apps.CalculateConfig',
-    'motion.apps.MotionConfig'
+    'motion.apps.MotionConfig',
+    'equation.apps.EquationConfig',
 ]
 
 MIDDLEWARE = [
