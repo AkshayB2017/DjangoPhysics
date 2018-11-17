@@ -1,13 +1,13 @@
-# DjangoPhysics
+#DjangoPhysics
 Final mini-project implementation. This is a simple app to solve physics equations and implementing a website using Django for the same.
 
-Specifications:
+##Specifications:
 
-Django Version- 2.1.2
+	Django Version >= 2.1.2 
+	
+	Python Version: 3.6.7
 
-Python Version: 3.6.7
+	Database Used: MYSQLite
 
-Database Used: MYSQLite
-
-Virtual Environment: None
+	Virtual Environment: Prefered if you use one. 
 
