@@ -11,3 +11,4 @@ Final mini-project implementation. This is a simple app to solve physics equatio
 
 	Virtual Environment: Prefered if you use one. 
 
+        Operating System used: Linux (Pop!OS)
