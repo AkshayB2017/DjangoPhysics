@@ -24,7 +24,6 @@ SECRET_KEY = '_v93+3ksh+h&te*mqg+slfrxi9@#tucus=#5zhxmyv^%v-yxx3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = []
 
 
@@ -40,6 +39,7 @@ INSTALLED_APPS = [
     'calculate.apps.CalculateConfig',
     'motion.apps.MotionConfig',
     'equation.apps.EquationConfig',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -122,3 +122,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')

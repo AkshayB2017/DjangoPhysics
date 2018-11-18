@@ -1,0 +1,56 @@
+.inputSection {
+  padding: 200px;
+  font-family: calibri;
+}
+
+.formulaText {
+  margin-bottom: 50px;
+  font-family: consolas;
+}
+
+.formulaDef {
+  color: #4285F4;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #343A40;
+}
+
+.freeSpace {
+  height: 42px;
+}
+
+sub {
+  font-size: 12px;
+  font-family: Calibri;
+  position: relative;
+  top: 15px;
+  left: -15px;
+}
+
+input[type=submit] {
+  margin-top: 25px;
+  margin-left: 11px;
+}
+
+.answer {
+  margin-top: 25px;
+  margin-left: 11px;
+  color: green;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 30px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+  
+  .pagination {
+    margin-bottom: 30px;
+}
+  
