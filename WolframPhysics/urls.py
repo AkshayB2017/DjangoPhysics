@@ -21,7 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
     path('calculate/', include('calculate.urls')),
-    path('motion/',include('motion.urls')),
+    path('Motion3rdLaw/',include('Motion3rdLaw.urls')),
     path('equation/',include('equation.urls')),
 ]
 

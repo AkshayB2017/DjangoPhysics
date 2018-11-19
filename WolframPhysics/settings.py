@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'calculate.apps.CalculateConfig',
-    'motion.apps.MotionConfig',
+    'Motion3rdLaw.apps.Motion3rdLawConfig',
     'equation.apps.EquationConfig',
     'home',
 ]

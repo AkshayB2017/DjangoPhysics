@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.template import RequestContext
 from django.http import HttpResponse
 from .models import InputForm
-from motion.compute import compute
+from Motion3rdLaw.compute import compute
 import os
 
 def index(request):
