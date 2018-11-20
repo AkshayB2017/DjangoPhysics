@@ -13,7 +13,6 @@ DISP=(
     (float(1),'m'),
     (float(1000),'km'),
     (0.01,'cm')
-
 )
 
 class Question(models.Model):    
