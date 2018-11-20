@@ -4,9 +4,9 @@
 <html>  
 	<head>
 		<meta charset="utf-8">
-		<title>First Law</title>
+		<title>First Equation</title>
 
-		<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrapcss' %}">
+		<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
 		<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
 		<link rel="stylesheet" href="{% static 'css/style.css' %}">
 	</head>
@@ -22,15 +22,12 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-					<a class="nav-link" href="{% static '..' %}">Home
+					<a class="nav-link" href="{% static '../kinematics' %}">Home
 						<span class="sr-only">(current)</span>
 					</a>
 					</li>
 					<li class="nav-item">
 					<a class="nav-link" href="#">About</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#">Services</a>
 					</li>
 					<li class="nav-item">
 					<a class="nav-link" href="#">Contact</a>
@@ -42,9 +39,9 @@
 		
 		<div class = "inputSection">
 			
-			<h4 class = "formulaDef">First Law of Motion</h4>
-			<h1 class = "formulaText">v = u + at</h1>
-      <form method=post action="">{% csrf_token %}
+		<h4 class = "formulaDef">First Law of Motion</h4>
+		<h1 class = "formulaText">v = u + at</h1>
+      	<form method=post action="">{% csrf_token %}
         <table>
           {% for field in form %}
           <tr>
@@ -60,7 +57,7 @@
           v (Final Velocity) : 
           {% if result != None %}
           {% load static %}
-            {{ result }}
+            {{ result }} m/s
         {% endif %}
         </p>
 		</div>
