@@ -4,7 +4,7 @@ import os, time, glob
 def compute(n,t,v):
     """Return filename of plot of the damped_vibration function."""
     R=8.314
-    p=R*float(n*t/v)
+    p=R*float(n)/float(v)*float(t)
     return p
     # Use time since Jan 1, 1970 in filename in order make
     # a unique filename that the browser has not chached
