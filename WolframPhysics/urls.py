@@ -23,6 +23,9 @@ urlpatterns = [
     path('calculate/', include('calculate.urls')),
     path('Motion3rdLaw/',include('Motion3rdLaw.urls')),
     path('equation/',include('equation.urls')),
+    path('force/',include('force.urls')),
+    path('power/',include('power.urls')),
+    path('work/',include('work.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

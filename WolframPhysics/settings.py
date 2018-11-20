@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'calculate.apps.CalculateConfig',
     'Motion3rdLaw.apps.Motion3rdLawConfig',
     'equation.apps.EquationConfig',
+    'force.apps.ForceConfig',
+    'work.apps.WorkConfig',
+    'power.apps.PowerConfig',
     'home',
 ]
 
