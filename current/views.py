@@ -12,7 +12,7 @@ def index(request):
         form = InputForm(request.POST)
         if form.is_valid():
             form2 = form.save(commit=False)
-            result = compute(form2.q, form2.t)
+            result = compute(float(form2.q)*form2.Qunit, float(form2.t)*form2.Tunit)
             
     else:
         form = InputForm()

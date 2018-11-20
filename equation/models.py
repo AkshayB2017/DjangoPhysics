@@ -2,8 +2,8 @@ from django.db import models
 from django.forms import ModelForm
 # Create your models here.
 ACCEL=(
-    (float(1),'m/s2'),
-    (0.27777777777778,'km/hr2')
+    (float(1),'m/s²'),
+    (0.27777777777778,'km/hr²')
 )
 SPEED=(
     (float(1),'m/s'),

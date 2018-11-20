@@ -12,8 +12,8 @@ TIME=(
     (float(3600),'hr')
 )
 ACCEL=(
-    (float(1),'m/s2'),
-    (0.27777777777778,'km/hr2')
+    (float(1),'m/s²'),
+    (0.27777777777778,'km/hr²')
 )
 
 class Question(models.Model):
