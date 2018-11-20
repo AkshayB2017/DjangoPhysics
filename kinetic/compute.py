@@ -1,7 +1,7 @@
 from numpy import exp, cos, linspace
 import os, time, glob
 
-def compute(m,v):
+def compute(m, v):
     """Return filename of plot of the damped_vibration function."""
     e=0.5*m*(v**2)
     return e

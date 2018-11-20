@@ -13,7 +13,6 @@
     <title>Django Physics</title>
 
 		<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
-		<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
 		<link rel="stylesheet" href="{% static 'css/style.css' %}">
 
   </head>
@@ -38,9 +37,6 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
@@ -55,7 +51,7 @@
   
       <!-- Page Heading -->
       <h1 class="my-4">
-        <small>Equations of Motion</small>
+        <small>Physics</small>
       </h1>
 
       <div class = "freeSpace"></div>
@@ -66,7 +62,7 @@
             <a href="#">
             <div class="card-body">
               <h4 class="card-title">
-                <a href="{% static '../calculate/' %}">v = u + at</a>
+              <a href="{% static '../kinematics' %}">Kinematics</a>
               </h4>
               <p class="card-text"></p>
             </div>
@@ -77,7 +73,7 @@
             <a href="#">
             <div class="card-body">
               <h4 class="card-title">
-                <a href="{% static '../Motion3rdLaw/' %}">s = ut + &frac12 at<sup>2</sup></a>
+                <a href="{% static '../dynamics' %}">Dynamics</a>
               </h4>
               <p class="card-text"></p>
             </div>
@@ -165,15 +161,12 @@
       -->
       </div>
     
-    
-  
     </div>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-        <div class="container">
+
           <p class="m-0 text-center text-white">Copyright &copy; Django Physics 2018</p>
-        </div>
           <!-- /.container -->
     </footer>
 
