@@ -7652,9 +7652,10 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 3rem !important;
-  height: 120px !important;
-  margin-top: 200px;
 }
 
 .pr-5,

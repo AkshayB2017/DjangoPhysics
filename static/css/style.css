@@ -3,13 +3,13 @@
   font-family: calibri;
 }
 
-sub {
-  text-align: left;
-}
-
 .formulaText {
   margin-bottom: 50px;
   font-family: consolas;
+}
+
+.smallText {
+  color: green;
 }
 
 .formulaDef {
@@ -30,7 +30,7 @@ sub {
   font-family: Calibri;
   position: relative;
   top: 15px;
-  left: -15px;
+  left: -19px;
 }
 
 input[type=submit] {
