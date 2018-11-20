@@ -13,7 +13,7 @@ def index(request):
         if form.is_valid():
             form2 = form.save(commit=False)
             result = compute(float(form2.u) *form2.Uunit, float(form2.t)*form2.Tunit, float(form2.a)*form2.Aunit)
-               
+            form3=(form2.Uunit,form2.Tunit,form2.Aunit)   
     else:
         form = InputForm()
     context = {'form': form,
