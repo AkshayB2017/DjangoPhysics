@@ -42,6 +42,17 @@ INSTALLED_APPS = [
     'force.apps.ForceConfig',
     'work.apps.WorkConfig',
     'power.apps.PowerConfig',
+    'current.apps.CurrentConfig',
+    'escapev.apps.EscapevConfig',
+    'gravforce.apps.GravforceConfig',
+    'gravg.apps.GravgConfig',
+    'kinetic.apps.KineticConfig',
+    'kinetict.apps.KinetictConfig',
+    'potential.apps.PotentialConfig',
+    'powerv.apps.PowervConfig',
+    'pressuret.apps.PressuretConfig',
+    'resistance.apps.ResistanceConfig',
+    'voltage.apps.VoltageConfig',
     'home',
 ]
 

@@ -26,6 +26,17 @@ urlpatterns = [
     path('force/',include('force.urls')),
     path('power/',include('power.urls')),
     path('work/',include('work.urls')),
+    path('potential/',include('potential.urls')),
+    path('powerv/',include('powerv.urls')),
+    path('pressuret/',include('pressuret.urls')),
+    path('voltage/',include('voltage.urls')),
+    path('resistance/',include('resistance.urls')),
+    path('gravg/',include('gravg.urls')),
+    path('gravforce/',include('gravforce.urls')),
+    path('current/',include('current.urls')),
+    path('escapev/',include('escapev.urls')),
+    path('kinetic/',include('kinetic.urls')),
+    path('kinetict/',include('kinetict.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
