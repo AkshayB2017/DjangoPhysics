@@ -12,7 +12,7 @@ def index(request):
         form = InputForm(request.POST)
         if form.is_valid():
             form2 = form.save(commit=False)
-            result = compute(form2.A, form2.t,form2.d)
+            result = compute(form2.a, form2.t,form2.d)
             
     else:
         form = InputForm()

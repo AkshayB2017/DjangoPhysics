@@ -3,6 +3,10 @@
   font-family: calibri;
 }
 
+sub {
+  text-align: left;
+}
+
 .formulaText {
   margin-bottom: 50px;
   font-family: consolas;

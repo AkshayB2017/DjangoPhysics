@@ -9,3 +9,9 @@ def kinematics(request):
 
 def dynamics(request):
     return render(request, 'dynamics.html')
+
+def thermodynamics(request):
+    return render(request, 'thermodynamics.html')
+
+def electronics(request):
+    return render(request, 'electronics.html')

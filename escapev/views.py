@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.template import RequestContext
 from django.http import HttpResponse
 from .models import InputForm
-from current.compute import compute
+from escapev.compute import compute
 import os
 
 def index(request):
